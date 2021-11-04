@@ -1,0 +1,73 @@
+.project-grid
+{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: 5%;
+  margin-top: 20px;
+  width: 90%;
+  height: 100%;
+}
+.project-video 
+{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.project-screenshot
+{
+  width: 100%;
+  height: 100%;
+}
+
+.project-name
+{
+  text-transform: uppercase;
+  color: #b38e6d;
+  margin-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.project-description
+{
+  color: #b38e6d;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 15px;
+}
+.project-gitrepo
+{
+  height: 50px;
+  width: 150px;
+  margin-left: 5%;
+}
+.project-gitrepo-text
+{
+  color: #b38e6d;
+  float: left;
+  margin-top: 20%;
+}
+.project-gitrepo-image
+{
+  margin-top: -30%;
+  height: 50px;
+  width: 50px;
+  background-image: url(../images/github.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: right;
+  filter: invert(98%) sepia(75%) saturate(4091%) hue-rotate(298deg) brightness(104%) contrast(123%);
+}
+
+@media only screen and (min-width: 768px)
+{
+  .project-grid
+  {
+    height: 75%;
+  }
+  .project-screenshot
+  {
+    height: 75%;
+  }
+}
