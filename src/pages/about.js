@@ -26,14 +26,8 @@ export default class About extends React.Component
 
           <div className="page-column-right">
             <p className="information">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Sed adipiscing diam donec adipiscing tristique risus nec feugiat. 
-              Tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce. 
-              Purus sit amet luctus venenatis lectus magna. Congue eu consequat ac felis donec et odio pellentesque diam. 
-              Urna cursus eget nunc scelerisque viverra mauris in aliquam sem. Fermentum odio eu feugiat pretium. 
-              Tincidunt praesent semper feugiat nibh. Massa tempor nec feugiat nisl pretium fusce id. Euismod nisi porta lorem mollis. 
-              Consectetur adipiscing elit duis tristique sollicitudin nibh. Fringilla ut morbi tincidunt augue interdum velit euismod. 
-              Placerat duis ultricies lacus sed turpis tincidunt.
+              Im am an ICT student with years of experience with gamedevelopment. I also learned how to make pixel art and have 6 and a half years of experience. 
+              I'm currently leaning more towards the back-end side of development, but I would like to learn some more front end related subjects too.
             </p>
           </div>
                     
